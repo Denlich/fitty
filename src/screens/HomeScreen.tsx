@@ -1,6 +1,6 @@
 import React from "react";
-import { Text } from "react-native";
+import { Heading } from "components/common/ui";
 
 export const HomeScreen = (): JSX.Element => {
-  return <Text>HomeScreen</Text>;
+  return <Heading>HomeScreen</Heading>;
 };
